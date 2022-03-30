@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>FreeCodeCamp Videogames Form</title>
+</head>
+
+<body>
+    <main id="main">
+        <div class="introduction">
+            <h1 id="title" class="center">FreeCodeCamp Videogames Form</h1>
+            <p id="description" class="center"> Thank you for taking the time to help us know which <b>gamer</b> are you</p>
+        </div>
+        <div class="container">
+            <form id="survey-form" class="center">
+                <div id="input-fields">
+                    <label id="name-label"><b>Name:</b><br></label>
+                    <input id="name" type="name" name="name" class="form" required placeholder="Full Name"><br>
+                    <br>
+                    <label id="email-label"><b>Email:</b><br></label>
+                    <input id="email" type="email" name="email" class="form" required placeholder="example@mail.com"><br>
+                    <br>
+                    <label id="number-label"><b>Age:</b><br></label>
+                    <input id="number" type="number" name="number" class="form" min="16" max="99" placeholder="16+">
+                </div>
+
+                <div id="dropdown-div"><br>
+                    <label id="dropdown-label"><strong>Your favourite videogames genres:</strong></label><br>
+                    <select id="dropdown" name="code-lang" class="form">
+                        <option value="FPS">FPS</option>
+                        <option value="RPG">RPG</option>
+                        <option value="Platform">Platform</option>
+                        <option value="Action">Action</option>
+                        <option value="MMORPG">MMORPG</option>
+                        <option value="Sports">Sports</option>
+                    </select>
+
+                </div>
+
+                <br><b>What type of gamer are you?<br></b>
+
+                <div>
+                    <input type="radio" name="gamer" value="casual-gamer">
+                    <label for="casual-gamer">Casual Gamer</label>
+                </div>
+                <div>
+                    <input type="radio" name="gamer" value="pro-gamer">
+                    <label for="pro-gamer">Pro Gamer</label>
+
+                </div>
+
+                <br><b>Which titles did you play?<br></b>
+
+                <div>
+                    <input type="checkbox" name="titles" value="elden-ring">
+                    <label for="elden-ring">Elden Ring</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="titles" value="cod-vanguard">
+                    <label for="cod-vanguard">COD: Vanguard</label>
+                </div>
+                <div>
+                    <input type="checkbox" name="titles" value="cyberpunk-2077">
+                    <label for="cyberpunk-2077">Cyberpunk: 2077</label>
+                </div>
+
+                <div id="survey-ending">
+                    <label for="comments"><br><b>Any comments or suggestions?</b><br></label>
+                    <textarea placeholder="Please feel free to write a suggestion..."></textarea>
+                    <br><br>
+                </div>
+                <input type="submit" id="submit" class="submit-button"></input>
+
+            </form>
+        </div>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+#title {
+    font-size: 200%;
+}
+
+.introduction {
+    padding: 1%;
+    text-align: center;
+}
+
+#description {
+    font-style: italic;
+}
+
+.center {
+    margin: auto;
+    padding: auto;
+}
+
+#main {
+    background-color: darkslategrey;
+    color: whitesmoke;
+}
+
+#survey-form {
+    border-radius: 2%;
+    width: max-content;
+    padding: 5%;
+    color: #495057;
+    background-color: wheat;
+}
+
+.submit-button {
+    background-color: firebrick;
+    color: whitesmoke;
+    width: 100%;
+    padding: 5%;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    height: auto;
+}
